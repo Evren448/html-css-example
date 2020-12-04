@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta name = "keywords" content="Java,Python,JS"/>
+    <meta name = "descripton" content="Learning HTML."/>
+    <meta name = "author" content="Evren Rahimoglu"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="container">
+
+       
+            <div class="logo">Evren Rahimoğlu</div>
+            <label for="btn" class="icon">
+                <span class="fa fa-bars"></span>
+            </label>
+            <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li>
+                    <label for="btn-1" class="show">Hakkında +</label>
+                    <a href="#about">Hakkında</a>
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li><a href="#about">Öğrenim Hayatı</a></li>
+                        <li><a href="#about">Kişisel Bilgiler</a></li>
+                        <li><a href="#about">Gelecek Planı</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <label for="btn-2" class="show">Hobiler +</label>
+                    <a href="#hobby">Hobiler</a>
+                    <input type="checkbox" id="btn-2">
+
+                    <ul>
+                        <li><a href="#hobby">Müzik</a></li>
+                        <li><a href="#hobby">Kitap</a></li>
+                        <li><a href="#hobby">Spor</a></li>
+                        <li>
+                            <label for="btn-3" class="show">More +</label>
+                            <a href="#">More                        
+                            <span class="fa fa-plus"></span>
+
+                            </a>
+                            <input type="checkbox" id="btn-3">
+                            <ul>
+                                <li><a href="#">Sub-Ex-1</a></li>
+                                <li><a href="#">Sub-Ex-2</a></li>
+                                <li><a href="#">Sub-Ex-3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#contact">İletişim</a></li>
+
+            </ul>
+        </div>
+    </nav>  
+
+    <section id="home">
+        <img src="images/IMG-1966.jpg" width="400px" height="400px"  alt="Evren Rahimoglu">
+
+        <div class="name text-center">
+            <h2 class="heading-big">Evren Rahimoğlu</h2>
+            <p>Computer Engineering | Frontend example!</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="text-center heading-medium">Hakkında</h2> <br>
+        <div class="items">
+            
+            <article class="item">
+                <i class="fa fa-pencil-alt fa-2x"></i>
+                <h3>Öğrenim Hayatı<br><br></h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus labore omnis hic architecto, cum libero temporibus vitae sit? Facilis libero provident eos cum repudiandae in! Tenetur harum officia incidunt ea magni omnis, at culpa architecto ab aut ex placeat id, recusandae odio praesentium assumenda pariatur dolorem inventore quod, veritatis ut? <br><br></p>
+
+            </article>
+
+            
+            <article class="item">
+                <i class="fas fa-address-card fa-2x"></i>
+                <h3>Kişisel Bilgiler<br><br></h3>
+                <p>Porem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus labore omnis hic architecto, cum libero temporibus vitae sit? Facilis libero provident eos cum repudiandae in! Tenetur harum officia incidunt ea magni omnis, at culpa architecto ab aut ex placeat id, recusandae odio praesentium assumenda pariatur dolorem inventore quod, veritatis ut? <br><br></p>
+
+            </article>
+
+            
+            <article class="item">
+                <i class="fas fa-business-time fa-2x"></i>
+                <h3>Gelecek Planı<br><br></h3>
+                <p>Corem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus labore omnis hic architecto, cum libero temporibus vitae sit? Facilis libero provident eos cum repudiandae in! Tenetur harum officia incidunt ea magni omnis, at culpa architecto ab aut ex placeat id, recusandae odio praesentium assumenda pariatur dolorem inventore quod, veritatis ut? <br><br></p>
+
+            </article>
+        </div>
+    </section>
+
+    <div class="follow-me">
+
+        <div>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+		
+
+    </div>
+
+
+    <section id="hobby">
+
+        <h4 class="text-center heading-big">Hobiler
+
+        </h4>
+        
+            <div class="hobbies">
+                <div class="hobby-item white">
+                     
+                    <div class="hobby-image">
+                        <img src="https://media.giphy.com/media/6Fd0P70BD4ezu/giphy.gif" width="300px" height="300px" alt="Pyhton">
+                        
+                    </div>
+                    <div class="hobby-info">
+                        <div class="title">
+                            <Article>
+                                Müzik
+                            </Article>
+                        </div>
+    
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere praesentium cum culpa corporis. Pariatur mollitia nulla aperiam facilis repellendus iste debitis at magni? Magnam quibusdam assumenda quidem consectetur eum neque aut perferendis numquam optio harum? Quasi mollitia sit labore id magni, sint, velit totam itaque nobis quas fuga. Soluta quidem animi ducimus nisi laboriosam asperiores, provident quaerat sed repudiandae sint quam delectus voluptatibus ut quis natus. Veritatis expedita pariatur temporibus error nobis quo itaque non voluptate, alias asperiores ratione quae ab accusamus sit optio reiciendis quas modi laudantium fugiat officiis dignissimos quos excepturi accusantium. Incidunt quaerat odio et blanditiis quos.</p>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="hobby-item color-d0">
+                     
+                    <div class="hobby-image">
+                        <img src="https://media.giphy.com/media/xT8qBt3pdiCZrk3erS/giphy.gif" width="300px" height="300px" alt="Pyhton">
+                        
+                    </div>
+                    <div class="hobby-info">
+                        <div class="title">
+                            <Article>
+                                Kitap Okumak
+                            </Article>
+                        </div>
+    
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ex est quasi, aliquid quaerat voluptatibus distinctio harum eaque facere pariatur doloribus aut! Tempore quod, reprehenderit dolor et vel consectetur, quae velit sit totam necessitatibus non ducimus id quaerat, eveniet voluptas placeat quasi doloremque nam eius repudiandae! Voluptatum sapiente alias reiciendis debitis, a laudantium itaque minus nam ex temporibus aliquam eos quod consequatur tempore necessitatibus accusantium natus laboriosam libero! Sint, facilis pariatur. Laboriosam maxime deleniti voluptas quos nostrum corporis possimus, unde, quo pariatur iusto a veniam, inventore vitae excepturi. Eos neque consequuntur error iure a natus facilis minus cupiditate in quasi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hobby-item white">
+                     
+                    <div class="hobby-image">
+                        <img src="https://media.giphy.com/media/1rK97EtWMQVjM3Ni1g/giphy.gif" width="300px" height="300px" alt="Pyhton">
+                        
+                    </div>
+                    <div class="hobby-info">
+                        <div class="title">
+                            <Article>
+                                Spor Yapmak
+                            </Article>
+                        </div>
+    
+                        <div class="description">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ex est quasi, aliquid quaerat voluptatibus distinctio harum eaque facere pariatur doloribus aut! Tempore quod, reprehenderit dolor et vel consectetur, quae velit sit totam necessitatibus non ducimus id quaerat, eveniet voluptas placeat quasi doloremque nam eius repudiandae! Voluptatum sapiente alias reiciendis debitis, a laudantium itaque minus nam ex temporibus aliquam eos quod consequatur tempore necessitatibus accusantium natus laboriosam libero! Sint, facilis pariatur. Laboriosam maxime deleniti voluptas quos nostrum corporis possimus, unde, quo pariatur iusto a veniam, inventore vitae excepturi. Eos neque consequuntur error iure a natus facilis minus cupiditate in quasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact-me">
+        <div class="contact-div">
+           
+                
+            <form id="form1">
+                 
+                <h5 class="text-center heading-medium">Bana ulasin</h5>
+        
+                        
+                <div class="form-group">
+                    <label for="name">Isim</label>
+                    <input 
+                        type="text"
+                        class="form-control"
+                        name="name" 
+                        id="name" 
+                        placeholder="Isim"
+                        required
+                    />
+                </div>
+            
+                <div class="form-group">
+                    <label for="email">E - Mail</label>
+                    <input 
+                        type="email"
+                        class="form-control"
+                        name="email" 
+                        id="email" 
+                        placeholder="E-mail"
+                        required
+                    />
+                </div>
+            
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea 
+                        name="message" 
+                        id="message" 
+                    class="form-control" 
+                        rows="7"
+                        placeholder="Mesajiniz"
+                        required
+                    ></textarea>
+                </div>
+                <div class="buttons">
+                    <button type="submit" class="btn btn-block">Gönder</button>
+                    <button type="reset" class="btn btn-block">Sıfırla</button>
+            
+                </div>
+                       
+        
+        
+            </form>
+
+        </div>
+    </section>
+
+
+    <section id="contact">
+
+		<footer class="footer-distributed">
+
+			<div class="footer-right">
+
+				<a href="#"><i class="fab fa-facebook-f"></i></a>
+				<a href="#"><i class="fab fa-twitter"></i></a>
+				<a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            
+			</div>
+
+			<div class="footer-left">
+
+				<p class="footer-links">
+					<a class="link-1" href="#">Home</a>
+
+					<a href="#home">Ana Sayfa</a>
+
+					<a href="#about">Hakkında</a>
+
+					<a href="#hobby">Hobiler</a>
+
+					<a href="#contact">İletişim</a>
+				</p>
+
+				<p>Evren Rahimoğlu &copy; 2020</p>
+			</div>
+
+        </footer>
+    </section>
+
+
+
+
+    
+</body>
+</html>
